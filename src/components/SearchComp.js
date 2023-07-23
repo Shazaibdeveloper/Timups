@@ -16,8 +16,9 @@ const SearchComp = () => {
   const dispatch = useDispatch();
 
   const handleSearch = () => {
-    dispatch(searchWatch({ watchesData: searchQuery }));
+    dispatch(searchWatch(searchQuery));
   };
+  
 
   return (
     <>

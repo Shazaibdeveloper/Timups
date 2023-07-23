@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Watchesapi from '../Api/Watchesapi';
+import watches from '../Api/Watchesapi';
 import { add } from '../Store/CartSlice';
 import { useDispatch } from 'react-redux'; 
 import Filters from './Filters';
 
-const Latest_watches = ({ watches }) => {
+const Latest_watches = () => {
   const [shop, setShop] = useState(Watchesapi);
   const dispatch = useDispatch();
   const [selectedCategory, setSelectedCategory] = useState(null);
