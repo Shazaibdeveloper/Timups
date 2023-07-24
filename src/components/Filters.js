@@ -9,7 +9,7 @@ const Filters = ({ onSelectCategory, onSelectStatus, onselectedwatch }) => {
             <h2>Latest Watches</h2>
             <div className="heading filters">
               <div className="btn-group btn-group-toggle btn-colors" data-toggle="buttons">
-                <label className="btn btn-danger active" onClick={() => onselectedwatch('watch')}> 
+                <label className="btn btn-danger" onClick={() => onselectedwatch('watch')}> 
                   <input type="radio" name="options" id="option1" autoComplete="off" checked /> All
                 </label>
                 <label className="btn btn-danger" onClick={() => onSelectCategory('Mens')}>
