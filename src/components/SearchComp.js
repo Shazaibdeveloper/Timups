@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { searchWatch } from '../Store/SearchSlice';
 import { add } from '../Store/CartSlice';
 import {FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const SearchComp = () => {
   const searchResults = useSelector((state) => state.search.searchResults);
@@ -55,6 +56,7 @@ const SearchComp = () => {
                       <img src={w1} alt="" />
                       <div className="add_box">
                         <a onClick={() => handleAdd(watch)}>Add to Cart</a>
+                        <Link to={`/product/${id}` } className='details-btn'>Details</Link>
                       </div>
                     </div>
                     <div className="new">
