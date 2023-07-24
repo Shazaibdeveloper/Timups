@@ -17,7 +17,7 @@ const ProductList = () => {
         </div>
         
       ))}
-      {selectedProduct && <Details product={selectedProduct} />}
+      
     </div>
   );
 };

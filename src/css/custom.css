@@ -162,6 +162,13 @@
 position: relative;
 }
 
+a.details-btn {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 3px 0 !important;
+}
+
 .add_box , .search-container .add_box{
   position: absolute;
   text-align: center;
@@ -171,12 +178,20 @@ position: relative;
   left: 0;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   transition: 0.4s all;
   cursor: pointer;
   opacity: 0;
 }
 
+.detail-aad-to-cart{
+  color: black !important;
+}
+
+.detail-aad-to-cart:hover{
+  color: white !important;
+}
 
 .add_box:hover {
 background: #0000001f;

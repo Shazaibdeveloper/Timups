@@ -4,6 +4,7 @@ import watches from '../Api/Watchesapi';
 import { add } from '../Store/CartSlice';
 import { useDispatch } from 'react-redux'; 
 import Filters from './Filters';
+import { Link } from 'react-router-dom';
 
 const Latest_watches = () => {
   const [shop, setShop] = useState(Watchesapi);
@@ -59,6 +60,7 @@ const Latest_watches = () => {
               return (
                 <div className="col-md-4 box-div" key={id}>
                   <div className="box">
+                    
                     <div className="img-box">
                       <img src={w1} alt="" />
                     </div>
@@ -68,7 +70,9 @@ const Latest_watches = () => {
                      
                       <div className="add_box">
                         <a onClick={() => handleAdd(p)}>Add to Cart</a>
+                        <Link to={`/product/${id}`} className='details-btn'>Details</Link>
                       </div>
+                      
                    </div>
                   <div className="detail-box">
                     <h6>{h6}</h6>
