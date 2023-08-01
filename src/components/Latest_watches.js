@@ -55,7 +55,7 @@ const Latest_watches = () => {
         <Filters onSelectCategory={handleSelectCategory} onSelectStatus={handleSelectStatus} onselectedwatch={handleselectedwatch}/>
           <div className="row">
             {filteredWatches.map((p) => {
-              const { id, w1, h6, price, status, category } = p;
+              const { id, w1, name, price, status, category } = p;
 
               return (
                 <div className="col-md-4 box-div" key={id}>
@@ -75,7 +75,7 @@ const Latest_watches = () => {
                       
                    </div>
                   <div className="detail-box">
-                    <h6>{h6}</h6>
+                    <h6>{name}</h6>
                     <h6>
                       Price: <span>${price}</span>
                     </h6>
