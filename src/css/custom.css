@@ -260,8 +260,7 @@ opacity: 1;
     padding-top: 20px;
     margin-right: 60px;
   }
-  .quantity input {
-    -webkit-appearance: none;
+  .quantity input { 
     border: none;
     text-align: center;
     width: 32px;
@@ -324,9 +323,7 @@ opacity: 1;
     width: 40%;
 }
 
-
-element.style {
-}
+ 
 .client_section .box p {
     margin-top: 15px;
 }
