@@ -75,7 +75,7 @@ const Featured_section = () => {
               <p>
                {para}
               </p>
-              <a href="">
+              <a href="https://www.instagram.com/shahzaib_coder/">
                 <span>
                 {btn}
                 </span>
@@ -94,7 +94,7 @@ const Featured_section = () => {
 
       </div>
       <div className="btn-box">
-        <a href="">
+        <a href="https://www.instagram.com/shahzaib_coder/">
           View More
         </a>
       </div>

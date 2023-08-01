@@ -44,7 +44,7 @@ const Banner_section = () => {
                 <div className="col-md-5 text-left">
                   <div className="detail-box">
                     <h1>
-                      Smart Watch
+                      Global Watch
                     </h1>
                     <p>
                       Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
@@ -70,7 +70,7 @@ const Banner_section = () => {
                 <div className="col-md-5 text-left">
                   <div className="detail-box">
                     <h1>
-                      Smart Watches
+                      International Watches
                     </h1>
                     <p>
                       Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.

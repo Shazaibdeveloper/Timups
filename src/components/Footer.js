@@ -19,16 +19,14 @@ const Footer = () => {
               Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
             </p>
             <div className="footer_social">
-              <a href="">
+              <a href="https://www.facebook.com/MuhammadShahzaib69">
                 <i className="fa fa-facebook" aria-hidden="true"><FaFacebookF /></i>
               </a>
-              <a href="">
-                <i className="fa fa-twitter" aria-hidden="true"><BsTwitter /></i>
-              </a>
-              <a href="">
+              
+              <a href="https://www.linkedin.com/in/muhammadshahzaibwebdeveloper/">
                 <i className="fa fa-linkedin" aria-hidden="true"><FaLinkedinIn /></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/shahzaib_coder/">
                 <i className="fa fa-instagram" aria-hidden="true"><FiInstagram /></i>
               </a>
             </div>
@@ -40,7 +38,7 @@ const Footer = () => {
               Reach at..
             </h4>
             <div className="contact_link_box">
-              <a href="">
+              <a href="https://www.instagram.com/shahzaib_coder/">
                 <i className="fa fa-map-marker" aria-hidden="true"><MdLocationOn /></i>
                 <span>
                   Location
@@ -49,13 +47,13 @@ const Footer = () => {
               <a href="">
                 <i className="fa fa-phone" aria-hidden="true"><BsTelephoneFill /></i>
                 <span>
-                  Call +01 1234567890
+                  Call +92 317 5188580
                 </span>
               </a>
               <a href="">
                 <i className="fa fa-envelope" aria-hidden="true"><MdEmail /></i>
                 <span>
-                  demo@gmail.com
+                  shahzaibmuhammad627
                 </span>
               </a>
             </div>

@@ -9,7 +9,6 @@ import Featured_section from '../components/Featured_section'
 import Client_section from '../components/Client_section'
 import About_section from '../components/About_section'
 import Banner_section from '../components/Banner_section'
-import Watchesapi from '../Api/Watchesapi';
 
 const Home = () => {
   return (
@@ -18,7 +17,7 @@ const Home = () => {
 
 <Navbar />
 <Banner_section />
-<Latest_watches watches={Watchesapi} />
+<Latest_watches />
 <About_section />
 <Featured_section /> 
 <Contact_Forms />
