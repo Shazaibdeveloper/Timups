@@ -27,7 +27,7 @@ const shopapi = [
   }, 
   {
     id: 3,
-   w1 : "https://cdn.shopify.com/s/files/1/0003/5815/4293/products/8158.jpg?v=1685096607",
+   w1 : "https://en-pk.svestonwatches.com/cdn/shop/files/DSC03048.jpg?v=1689161027",
    h6 : " Smartwatch",
    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
    price : 200,
@@ -71,7 +71,7 @@ const shopapi = [
   }, 
   {
     id: 7,
-    w1 : "https://cdn.shopify.com/s/files/1/0003/5815/4293/files/DSC02796.jpg?v=1685341812",
+    w1 : "https://en-pk.svestonwatches.com/cdn/shop/files/zoddok.jpg?v=1688458811",
     h6 : " Smartwatch",
    price : 300,
    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
